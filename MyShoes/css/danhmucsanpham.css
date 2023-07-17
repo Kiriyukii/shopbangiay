@@ -1,0 +1,174 @@
+#body-content{
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#body-content {
+    margin-top: 100px;
+}
+
+#timkiemtheo {
+    width: 200px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    margin-left: 50px;
+    float: left;
+}
+
+.timkiemmuc {
+    margin-bottom: 20px;
+}
+
+.timkiemmuc > input {
+    width: 40px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+}
+
+.theotensanpham > p {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid gray;
+    font-size: 15x;
+}
+
+.theotensanpham > input {
+    height: 25px;
+    padding-left: 10px;
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.theogia > p {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid gray;
+}
+
+.theogia input {
+    width: 80px;
+    height: 25px;
+    padding-left: 6px;
+}
+
+.timkiem {
+    margin-top: 20px;
+}
+
+.timkiem input {
+    height: 25px;
+}
+
+
+#noidung-sanpham {
+    
+    float: left;
+    margin-left: 30px;
+    width: 1200px;
+    padding-left: 50px;
+    border-left: 0.5px gray solid;
+}
+
+
+#noidung-sanpham > p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#noidung-sanpham .img-quangcao {
+    margin-top: 30px;
+}
+
+.sap-xep {
+    padding: 20px 0px;
+    margin-top: 30px;
+    border-top: 0.5px gray solid;
+    border-bottom: 0.5px gray solid;
+    
+}
+
+.sap-xep > div {
+    margin-left: 850px;
+    font-size: 18px;
+    height: 30px;
+    background-color: rgb(248, 243, 243);
+    width: 253px;
+}
+
+.sap-xep select {
+    width: 150px;
+    height: 30px;
+    
+}
+
+/* .danhsachsanpham {
+    margin-top: 30px;
+} */
+
+.sanpham {
+    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+    margin-right: 22px;
+    float: left;
+    border: 1px solid gray;
+    cursor: pointer;
+    position: relative;
+}
+
+.sanpham img {
+    width: 248px;
+}
+
+.sanpham .ten-san-pham {
+    text-align: center;
+    margin-top: 10px;
+    height: 38px;
+}
+
+.sanpham .gia-tien {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.phan-trang {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.phan-trang input {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+    
+}
+
+.gia-tien > strong {
+    color: red;
+    font-size: 18px;
+}
+
+.phan-tram-sale {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    padding: 5px 16px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: red;
+}
+.phan-tram-sale > p {
+    color: white;
+    font-weight: bold;
+    
+}
